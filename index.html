@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNS 어학원</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #005bac; color: white; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    section { padding: 2rem; }
+    .gallery img { max-width: 200px; margin: 10px; border-radius: 8px; }
+    .sns a { display: inline-block; margin: 0 1rem; text-decoration: none; color: #005bac; font-weight: bold; }
+    form input, form select, form textarea { display: block; width: 100%; margin-bottom: 1rem; padding: 0.5rem; border-radius: 5px; border: 1px solid #ccc; }
+    form button { padding: 0.7rem 1.5rem; background: #005bac; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CNS 어학원</h1>
+    <nav>
+      <a href="#about">학원 소개</a>
+      <a href="#gallery">사진 자료</a>
+      <a href="#sns">SNS</a>
+      <a href="#apply">어학연수 신청</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>학원 소개</h2>
+    <p>CNS 어학원은 필리핀 바기오에 위치한 프리미엄 어학원으로, 집중 영어 학습과 실전 회화 능력 향상을 목표로 한 맞춤형 교육 과정을 제공합니다. 바기오의 쾌적한 기후와 안전한 환경 속에서 최고의 강사진과 함께 효과적인 어학연수를 경험해보세요.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>사진 자료</h2>
+    <img src="https://via.placeholder.com/200" alt="사진1" />
+    <img src="https://via.placeholder.com/200" alt="사진2" />
+    <img src="https://via.placeholder.com/200" alt="사진3" />
+  </section>
+
+  <section id="sns" class="sns">
+    <h2>SNS 및 문의</h2>
+    <a href="https://pf.kakao.com/" target="_blank">카카오톡 채널</a>
+    <a href="https://www.instagram.com/" target="_blank">인스타그램</a>
+    <a href="https://blog.naver.com/" target="_blank">네이버 블로그</a>
+  </section>
+
+  <section id="apply">
+    <h2>어학연수 신청서</h2>
+    <form>
+      <input type="text" placeholder="이름" required />
+      <input type="tel" placeholder="연락처" required />
+      <select required>
+        <option value="">희망 국가 선택</option>
+        <option value="usa">미국</option>
+        <option value="uk">영국</option>
+        <option value="canada">캐나다</option>
+        <option value="australia">호주</option>
+      </select>
+      <textarea rows="4" placeholder="기타 문의사항"></textarea>
+      <button type="submit">신청하기</button>
+    </form>
+  </section>
+</body>
+</html>
